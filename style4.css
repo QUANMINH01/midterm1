@@ -1,0 +1,229 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.wed .header{
+    background-color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.wed .header .logo img{
+    width: 138px;
+}
+.wed .header .menu .list{
+    list-style-type: none;
+    display: flex;
+    padding: 10px 10px;
+    font-size: 15px;
+    color: black;
+    margin-left: 20px;
+}
+.wed .header .menu .list li{
+    padding-left: 15px;
+}
+.wed .header .menu .list #id1{
+    color: rgb(236, 164, 48);
+}
+.wed .header .seach{
+    display: flex;
+    padding: 5px 15px;
+}
+.wed .header .seach button{
+    margin-left: 30px;
+    background-color: white;
+    font-size: 13px;
+}
+.wed .header .seach i{
+    margin-left: 10px;
+    color: black;
+    padding-top: 5px;
+}
+.wed .banner{
+    position: relative;
+}
+.wed .banner img{
+    width: 100%;
+}
+.wed .banner .cont{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+.wed .banner .cont b{
+    font-size: 35px;
+}
+.wed .banner .cont button{
+    background-color: white;
+    color: rgb(236, 164, 48);
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.wed .banner .cont h2,p{
+    padding-top: 10px;
+}
+.wed .adv{
+    display: flex;
+    width: 100%;
+}
+.wed .adv .delivery{
+    margin-left: 10px;
+    width: 25%;
+}
+.wed .adv .guarantee{
+    margin-left: 50px;
+    width: 25%;
+}
+.wed .adv .member{
+    margin-left: 50px;
+    width: 25%;
+}
+.wed .adv .genuine{
+    margin-left: 50px;
+    margin-right: 10px;
+    width: 25%;
+}
+
+.wed .adv h3{
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+}
+.wed .adv p{
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: center;
+    color: silver;
+}
+.wed .adv .icon{
+    background-color: rgb(152, 204, 219);
+    font-size: 50px;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 999px;
+    border: 3px solid transparent;
+    position: relative;
+    margin-left: 85px;
+}
+.product__list{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    background-color: rgb(209, 111, 61);
+}
+.product__list .product__item{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    display: inline;
+}
+.product__list .product__item .img1{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.product__list .product__item .link{
+    display: flex;
+    margin-left: 75px;
+}
+.product__list .product__item .img2{
+    max-width: 35px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.product__list .product__item p {
+    font-weight: 450;
+    color: rgb(255, 72, 0);
+    margin-top: 10px;
+}
+.product__list .product__item a {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
+.product__list .product__item h3{
+    color: #F30;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.product__list .product__item .span{
+    margin-top: 10px;
+}
+.product__list .product__item .span1{
+    background: #ebf0ff;
+    color: #1560f5;
+    margin-left: -10px;
+}
+.product__list .product__item .span2{
+    background: #ffebeb;
+    color: #f51517;
+    margin-left: 5px;
+}
+.product__list .product__item button {
+    width: 100%;
+    color: white;
+    background: #F30;
+    border: 1px solid #F30;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: -10px;
+    padding: 12px 10px;
+    border-radius: 4px;
+}
+.collection {
+    width: 95%;
+    margin: 0 auto;
+    background-color: white;
+}
+.collection h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.collection__main img{
+    margin: 0 10px;
+    border-radius: 12px;
+}
+.collection__main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.collection__main-left{
+    width: 450px;
+    height: 630px;
+}
+.collection__main-left img{
+    width: 100%;
+    object-fit: contain;
+}
+.collection__main-center{
+    width: 320px;
+}
+.collection__main-center img{
+    width: 100%;
+    padding: 0px 10px;
+    border-radius: 15px;
+}
+.collection__main-right{
+    width: 450px;
+}
+.collection__main-right img{
+    width: 100%;
+}
